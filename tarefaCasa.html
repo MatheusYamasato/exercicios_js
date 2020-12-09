@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+
+<script>
+    function pularLinha() {
+        document.write("<br>");
+    }
+
+    function dobro(numero) {
+        return numero * 2;
+    }
+
+    function metade(numero) {
+        return numero / 2;
+    }
+
+    function mostrarResultadoDobro() {
+        document.write(dobro(numeroMultiplicado) + " é o resultado do número que você informou multiplicado por 2");
+    }
+    
+    function mostrarResultadoDividido() {
+        document.write(metade(numeroDividido) + " é o resultado do número que você informou dividido por 2");
+    }
+
+    function saudacao() {
+        document.write("Olá " + nome + " ! Tudo bem?")
+    }
+
+    var numeroMultiplicado = prompt("Informe um número maior que 0");
+    var numeroDividido = prompt("Informe um número maior que 0");
+    var nome = prompt("Infomre seu nome")
+
+    mostrarResultadoDobro();
+    pularLinha();
+    mostrarResultadoDividido();
+    pularLinha();
+    saudacao();
+
+
+
+    
+
+</script>

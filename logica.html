@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        function pularLinha() {
+            document.write("<br>")
+        }
+
+        function mostrarFrase(phrase) {
+            document.write(phrase)
+            pularLinha()
+        }
+
+        let ano = 2020;
+        let nome = 'Flavio';
+        mostrarFrase(nome +  " tem " + (ano - 1977) + " anos");
+
+        let idadeFlavio = 39;
+        let idadeJoaquim = 41;
+        let idadeBarney = 20;
+
+        let media = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+        mostrarFrase('A média das idades é ' + Math.round(media));
+
+        mostrarFrase('A idade de ' + nome + ' é de ' + idadeFlavio);
+    
+    </script>
+    
+</body>
+</html>

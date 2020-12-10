@@ -10,16 +10,17 @@
         pularLinha();
     }
     
-    function calculoPizza(pizza) {
-
+    function calculoPizza(valor1, valor2) {
+        return valor2 - valor1
     }
 
-    var valorPizzaProduzida =
-    var valorPizzaVendida =
-    var nomePizza =
-    var imposto = 8.9%
-    var lucroLiquido
+    var valorPizzaCusto = parseInt(prompt("Digite o valor de custo da pizza"));
+    var valorPizzaVendida = parseInt(prompt("Digite o valor de venda da pizza"));
+    var nomePizza = prompt("Digite o nome da Pizza");
+    var valorImposto = (valorPizzaCusto * 8.9) / 100;
+    var lucroLiquido = valorPizzaVendida - valorPizzaCusto - valorImposto;
+
+    mostrarResultado("Para a pizza de " + nomePizza + " o lucro liquido é de " + lucroLiquido + "R$ e o imposto é de "
+     + valorImposto + "R$!")
+
 </script>
-
-
-Exibir na tela a mensagem: Para a pizza {nomePizza} o lucro liquido é de R${lucroLiquido} e o imposto é de (valor do imposto)

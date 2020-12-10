@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+    function pularLinha() {
+        document.write("<br>");
+    }
+
+    function mostrarResultado(frase) {
+        document.write(frase);
+        pularLinha();
+    }
+
+    var contador = 20;
+
+    while(contador >= 0) {
+        mostrarResultado(contador);
+        contador = contador - 1
+    }
+
+    mostrarResultado("Fim")
+</script>

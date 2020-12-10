@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+
+    function mostraResultado(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numeroPar = 2;
+
+    while(numeroPar <= 100) {
+        mostraResultado(numeroPar);
+        numeroPar = numeroPar + 2
+    }
+
+    mostraResultado("Fim")
+</script>
+

@@ -1,0 +1,51 @@
+<meta charset="UTF-8">
+
+<script>
+    function pularLinha() {
+        document.write("<br> <br> <br>")
+    }
+
+    function calculoInflacao(precoAtual, precoAntigo) {
+        return ((precoAtual - precoAntigo) / precoAntigo) * 100;
+    }
+    
+    function inflacaoDiaria(alimento) {
+        return alimento / dias;
+    }
+
+    function calculoInflacaoMedia(alimento1, alimento2, alimento3) {
+        return (alimento1 + alimento2 + alimento3) / numeroProdutos;
+    }
+
+    function mostrarResultado(resultado) {
+        document.write(resultado);
+        pularLinha();
+    }
+
+    var precoTomateAntigo = 3.30;
+    var precoTomateAtual = 4.70;
+    var precoArrozAntigo = 2.99;
+    var precoArrozAtual = 3.25;
+    var precoCenouraAntigo = 3.99;
+    var precoCenouraAtual = 4.14;
+    var dias = 6;
+    var numeroProdutos = 3;
+
+    var precoTomateInflacao = calculoInflacao(precoTomateAtual, precoTomateAntigo);
+    var precoArrozInflacao = calculoInflacao(precoArrozAtual, precoArrozAntigo);
+    var precoCenouraInflacao = calculoInflacao(precoCenouraAtual, precoCenouraAntigo);
+    var inflacaoTomateDiario = inflacaoDiaria(Math.round(precoTomateInflacao));
+    var inflacaoArrozDiario = inflacaoDiaria(Math.round(precoArrozInflacao));
+    var inflacaoCenouraDiario = inflacaoDiaria(Math.round(precoCenouraInflacao)); 
+    var inflacaoMedia = calculoInflacaoMedia(precoTomateInflacao, precoArrozInflacao, precoCenouraInflacao);
+
+    mostrarResultado("A inflação do tomate foi de " + Math.round(precoTomateInflacao) + "%.");
+    mostrarResultado("A inflação do arroz foi de " + Math.round(precoArrozInflacao) + "%.");
+    mostrarResultado("A inflação da centoura foi de " + Math.round(precoCenouraInflacao) + "%.");
+    mostrarResultado("A inflação diária do tomate foi de " + Math.round(inflacaoTomateDiario) + "%.");
+    mostrarResultado("A inflação diária do arroz foi de " + Math.round(inflacaoArrozDiario) + "%.");
+    mostrarResultado("A inflação diária da cenoura foi de " + Math.round(inflacaoCenouraDiario) + "%.");
+    mostrarResultado("A inflação média de todos os produtos foi de " + Math.round(inflacaoMedia) + "%.");
+    
+</script>
+

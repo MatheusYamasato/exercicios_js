@@ -13,12 +13,9 @@
         return numero / 2;
     }
 
-    function mostrarResultadoDobro() {
-        document.write(dobro(numeroMultiplicado) + " é o resultado do número que você informou multiplicado por 2");
-    }
-    
-    function mostrarResultadoDividido() {
-        document.write(metade(numeroDividido) + " é o resultado do número que você informou dividido por 2");
+    function mostrarResultado(resultado) {
+        document.write(resultado);
+        pularLinha();
     }
 
     function saudacao() {
@@ -27,16 +24,10 @@
 
     var numeroMultiplicado = prompt("Informe um número maior que 0");
     var numeroDividido = prompt("Informe um número maior que 0");
-    var nome = prompt("Infomre seu nome")
+    var nome = prompt("Informe seu nome")
 
-    mostrarResultadoDobro();
-    pularLinha();
-    mostrarResultadoDividido();
-    pularLinha();
+    mostrarResultado(dobro(numeroMultiplicado) + " é o resultado do número que você informou multiplicado por 2.");
+    mostrarResultado(metade(numeroDividido) + " é o resultado do número que você informou dividido por 2.");
     saudacao();
-
-
-
-    
 
 </script>

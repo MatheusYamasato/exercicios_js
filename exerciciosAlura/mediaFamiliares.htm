@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pularLinha() {
+        document.write("<br>")
+    }
+    function mostrarResultado() {
+        document.write(frase);
+    }
+
+    // armazenando o total de familiares com o numero de familiares que o usuário notificar
+    var totalFamiliares = parseInt(prompt("Quantidade de familiares?"));
+
+    // numero representa a quantidade de familiares
+    var numero = 1;
+
+    // armazenando o total de idade informado pelo numero total de familiares
+    var totalIdades = 0;
+
+    // enquanto o a quantidade de familiares ser igual ao numero totalFamiliar que foi informado no prompt
+    // continuar perguntando a idade, a mesma quantidade informada no total Familiares
+    while(numero <= totalFamiliares) {
+        var idade = parseInt(prompt("Informe a idade do familiar"));
+        totalIdades = totalIdades + idade;
+        numero ++;
+    }
+
+    var mediaDasIdades = totalIdades/totalFamiliares;
+    mostrarResultado("A média das idades dos familiares é " + mediaDasIdades);
+    mostrarResultado("Fim")
+
+
+
+
+</script> 

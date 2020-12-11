@@ -5,14 +5,17 @@
         document.write("<br> <br> <br>")
     }
 
+    // calculando a inflação
     function calculoInflacao(precoAtual, precoAntigo) {
         return ((precoAtual - precoAntigo) / precoAntigo) * 100;
     }
     
+    // calculando a inflação diaria de cada alimento
     function inflacaoDiaria(alimento) {
         return alimento / dias;
     }
 
+    // calculando a inflação media de todos os alimentos
     function calculoInflacaoMedia(alimento1, alimento2, alimento3) {
         return (alimento1 + alimento2 + alimento3) / numeroProdutos;
     }

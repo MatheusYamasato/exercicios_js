@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostar(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numeroPensado = Math.round(Math.random() + 10);
+
+    var tentativas = 1;
+
+    while(tentativas <= 3) { 
+        var chute = parseInt(prompt("Digite seu chute"));
+
+        if (chute == numeroPensado) {
+            mostrar("Você acertou");
+            break; // está forçando parar o "while" pois quando voce acertou o numero, não precisa de mais tentativas
+        } else {
+            mostrar("Você errou! O número pensado foi " + numeroPensado);
+        }
+
+        tentativas++;
+    }
+
+</script>

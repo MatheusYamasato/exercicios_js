@@ -11,7 +11,7 @@
     }
 
     function calculoDividir(valor1, valor2) {
-        return valor1 / valor2; 
+        return Math.floor(valor1 / valor2); 
     }
 
     function calculoLaranjaJoselito(valor1, valor2) {
@@ -21,12 +21,12 @@
 
     var totalLaranjas = parseInt(prompt("Joselito, informe o número total de laranjas"));
     var totalVizinhos = parseInt(prompt("Agora, Joselito, informe o número de vizinhos que entrarão no rateio"));
-    var laranjaJoselitoSobra = 
+    var laranjaJoselitoSobra = calculoLaranjaJoselito(3, 10) 
 
     mostrarResultado("O total de laranja(s) para cada vizinho será de " + calculoDividir(totalLaranjas, totalVizinhos)
      + " laranja(s).");
 
-    mostrarResultado("O total de laranja(s) que irá sobrar com o Joselito é de " + calculoLaranjaJoselito(totalLaranjas, totalVizinhos) + "laranja(s).")
+    mostrarResultado("O total de laranja(s) que irá sobrar com o Joselito é de " + laranjaJoselitoSobra + " laranja(s).")
 
     
 

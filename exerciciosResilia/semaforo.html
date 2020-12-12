@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+    function semaforo(sinal) {
+        switch(sinal) {
+            case 'Verde':
+                console.log("Pode passar!");
+                break;
+            case 'Amarelo':
+                console.log("Melhor frear");
+                break;
+            case 'Vermelho':
+                console.log("Pare já!")
+                break;
+            default:
+                console.log("Cor inexistente")   
+        }
+    }
+
+    var corSinal = prompt("Qual a cor do sinal?")
+    semaforo(corSinal)
+
+</script>

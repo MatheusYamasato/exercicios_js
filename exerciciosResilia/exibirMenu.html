@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+    function exibirMenu(resposta) {
+        console.log("O menu de bebidas: \n 1-Refrigerante \n 2-Suco \n 3-Água")
+    }
+
+    function exibirResposta(resposta) {
+        switch(respostaCliente) {
+            case '1':
+            console.log("Refrigerante");
+            break;
+            case '2':
+            console.log("Suco");
+            break;
+            case '3':
+            console.log("Água");
+            break;
+            default:
+            console.log("Numero não existe no cardápio")
+        }
+    }
+    
+    exibirMenu();
+
+    var respostaCliente = prompt("Escolha sua bebida: \n 1-Refrigerante \n 2-Suco \n 3-Água")
+    exibirResposta()
+</script>

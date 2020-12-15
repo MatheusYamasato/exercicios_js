@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T13:26:04.845Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Oy_kzL_Tv029cK6Q69Ul" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T13:34:02.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="mD0L48kAOlg2J8hXscIT" version="14.0.1" type="github">
   <diagram id="N-c3_KCk59BDcITyt4D-" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,10 +43,10 @@
         </mxCell>
         <mxCell id="M0Tt6Lwjw_9CXzXJgdcA-14" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="630" y="10" as="sourcePoint" />
-            <mxPoint x="640" y="110" as="targetPoint" />
+            <mxPoint x="610" y="20" as="sourcePoint" />
+            <mxPoint x="620" y="120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="640" y="60" />
+              <mxPoint x="620" y="70" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -54,7 +54,7 @@
           <mxGeometry x="230" y="110" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M0Tt6Lwjw_9CXzXJgdcA-16" value="Final de Semana" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="110" width="80" height="30" as="geometry" />
+          <mxGeometry x="580" y="120" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KUBK3jSnHYN7oBr7feEP-1" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -106,6 +106,54 @@
         </mxCell>
         <mxCell id="KUBK3jSnHYN7oBr7feEP-13" value="Atende na clinica até as 13hs, o horário do almoço" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="580" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-14" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="750" as="sourcePoint" />
+            <mxPoint x="255" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-15" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="790" as="sourcePoint" />
+            <mxPoint x="320" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-16" value="No almoço, come peixe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-17" value="Segundas, quartas e sextas&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-18" value="Terças e quintas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="740" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-19" value="No almoço, come carne ou salada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="790" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-21" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="540" as="sourcePoint" />
+            <mxPoint x="660" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-22" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="540" as="sourcePoint" />
+            <mxPoint x="700" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-23" value="Sábados" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="510" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-24" value="Domingos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="500" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-26" value="Assiste filmes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-27" value="Estuda e lê" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

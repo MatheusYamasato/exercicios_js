@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T13:34:02.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="mD0L48kAOlg2J8hXscIT" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T14:11:36.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="VmfCvL0dlJqRW0lIpGMU" version="14.0.1" type="github">
   <diagram id="N-c3_KCk59BDcITyt4D-" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,6 +154,87 @@
         </mxCell>
         <mxCell id="KUBK3jSnHYN7oBr7feEP-27" value="Estuda e lê" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="707" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-28" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="970" as="sourcePoint" />
+            <mxPoint x="130" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-29" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KUBK3jSnHYN7oBr7feEP-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="970" as="sourcePoint" />
+            <mxPoint x="240" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-30" value="Trabalha até as 18hs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-31" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.44;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KUBK3jSnHYN7oBr7feEP-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="880" as="sourcePoint" />
+            <mxPoint x="630" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-32" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="KUBK3jSnHYN7oBr7feEP-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="900" as="sourcePoint" />
+            <mxPoint x="760" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-34" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1220" as="sourcePoint" />
+            <mxPoint x="630" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-35" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1220" as="sourcePoint" />
+            <mxPoint x="230" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-36" value="Janta fora caso a filha chame para sair&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-37" value="Caso contrario, come em casa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-38" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="KUBK3jSnHYN7oBr7feEP-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1340" as="sourcePoint" />
+            <mxPoint x="400" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-39" value="Toma banho às 21hs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-40" value="Todos os dias" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1300" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-41" value="" style="endArrow=none;html=1;" edge="1" parent="1" target="KUBK3jSnHYN7oBr7feEP-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1340" as="sourcePoint" />
+            <mxPoint x="400" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-42" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="KUBK3jSnHYN7oBr7feEP-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="1450" as="sourcePoint" />
+            <mxPoint x="400" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-43" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1450" as="sourcePoint" />
+            <mxPoint x="400" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-44" value="Caso esteja cansado, assiste um pouco de TV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KUBK3jSnHYN7oBr7feEP-45" value="Caso contrário, dorme direto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

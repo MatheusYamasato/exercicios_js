@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+    var numeroInformado = parseInt(prompt("Informe um número:"));
+    var resultadoArray = [];
+
+    for (var i = 0; i < numeroInformado; i++) {
+        if (i % 3 == 0 && i != 0) {
+            resultadoArray.push(i);
+        }
+        if (i % 5 == 0 && i != 0) {
+            resultadoArray.push(i);
+        }
+    }
+    var resultadoSoma = 0;
+    for (var contagem = 0; contagem < resultadoArray.length; contagem ++) {
+        resultadoSoma = resultadoSoma + resultadoArray[contagem];
+    }
+    
+    console.log(resultadoArray);
+    console.log(resultadoSoma);
+</script>

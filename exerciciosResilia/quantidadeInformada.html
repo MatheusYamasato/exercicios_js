@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<script>
+
+    var numeroInformado = parseInt(prompt("Digite a quantidade de números:"));
+    var numerosArmazenados = [];
+
+    for(var contador = 1; contador <= numeroInformado; contador++) {
+        numerosArmazenados.push(parseInt(prompt("Digite um numero")));
+        console.log(numerosArmazenados)
+    }
+    
+    var numeroMaiorUm = 0;
+    var numeroMaiorDois = 0;
+
+    for(var i = 0; i < numerosArmazenados.length; i++) {
+        if(numerosArmazenados[i] > numeroMaiorUm && numerosArmazenados[i] != numeroMaiorUm) {
+            numeroMaiorUm = numerosArmazenados[i];
+        }
+    }
+
+    for(var i = 0; i < numerosArmazenados.length; i++) {
+        if(numerosArmazenados[i] > numeroMaiorDois && numerosArmazenados[i] != numeroMaiorUm) {
+            numeroMaiorDois = numerosArmazenados[i];
+        }
+    }
+
+    console.log(numeroMaiorUm * numeroMaiorDois)
+
+
+</script>

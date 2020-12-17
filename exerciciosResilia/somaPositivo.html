@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+<script>
+
+    // declarando a quantidade de números que será inserida no array
+    var numeroInformado = parseInt(prompt("Digite a quantidade de números que irá inserir no array"));
+
+    // declarando um array vazio
+    var numerosArray = [];
+
+    for(var i = 0; i < numeroInformado; i++) {
+        numerosArray.push(parseInt(prompt("Digite os números que irá ser inserida no array"))) /* empurrando os numeros
+         do array para dentro do array vazio */
+        console.log(numerosArray) // console.log para ver o que está dentro do array
+    }
+
+    // declarando um valor zerado para o resultado
+    var resultadoSoma = 0;
+    for(var contagem = 0; contagem < numerosArray.length; contagem++)  { //declarando que 
+        if(numerosArray[contagem] > 0)  {
+            resultadoSoma = resultadoSoma + numerosArray[contagem];
+        }
+    }
+    console.log(resultadoSoma)
+    
+    
+</script>

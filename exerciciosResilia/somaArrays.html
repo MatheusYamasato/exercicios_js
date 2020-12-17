@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+
+<script>
+    var numeroCasasUm = parseInt(prompt("Digite o número de casas que o array1 terá"));
+    var numeroCasasDois = parseInt(prompt("Digite o número de casas que o array2 terá"));
+    var arrayUm = [];
+    var arrayDois = [];
+
+    for(var i = 0; i < numeroCasasUm; i++) {
+        arrayUm.push(parseInt(prompt("Digite os números que ficarão no array1")));
+        console.log(arrayUm);
+    }
+    for(var j = 0; j < numeroCasasDois; j++) {
+        arrayDois.push(parseInt(prompt("Digite os números que ficarão no array2")));
+        console.log(arrayDois);
+    }
+
+    function somarArray(arr, arr2) {
+        return arr.concat(arr2);
+
+    }
+
+    var arrayTres = somarArray(arrayUm, arrayDois);
+    console.log(arrayTres);
+</script>

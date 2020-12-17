@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+
+<script>
+   var nomes = ['Matheus', 'Elivelton', 'Sergio', 'Gustavo'];
+
+   function criarBotao() {
+       for(var i = 0; i < nomes.length; i++ )  {     
+            document.write("<button onclick=alertaNome(" + i + ")>" + nomes[i] + "</button>");
+        }
+    }
+
+    function alertaNome(numero) {
+       alert("Olá, " + nomes[numero]);
+    }
+
+    criarBotao();
+    // "<button onClick=alertaNome(i)>"  + nomes[i] + "</button>"
+</script>

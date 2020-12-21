@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+ <meta charset="UTF-8">
+ <title>Página muito confiável</title>
+ </head>
+ <body>
+ <h1>Página muito confiável</h1>
+ <h3>Dados do cartão de crédito:</h3>
+ <p>0101 1234 5678 9101</p>
+ <input/>
+ <button onclick="comenta()">Comentar</button>
+ <script>
+        function comenta()
+        {
+            // Pegamos o elemento input
+            var input = document.querySelector("input");
+            // Pegamos o corpo da página
+            var body = document.querySelector("body");
+            // Adicionamos o conteúdo do input na página
+            body.innerHTML += `<br>`      // colocar a instrução aqui, nesse input.value!
+            body.innerHTML += eval( `"` + input.value + `".toUpperCase();` );
+            body.innerHTML += `<br>`
+        }
+</script>
+</body>
+</html>

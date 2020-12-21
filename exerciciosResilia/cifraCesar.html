@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+
+    var fraseRecebida = prompt("Digite a frase que será decodificada:");
+    var numeroDeslocamento = parseInt(prompt("Digite qual número será de deslocamento:"));
+    var fraseCodificada = "";
+    var fraseDescodificada = "";
+
+    for(var i = 0; i < fraseRecebida.length; i++) {
+
+        fraseCodificada += String.fromCharCode(fraseRecebida.charCodeAt(i) + numeroDeslocamento);
+    
+    }
+
+    console.log(fraseCodificada);
+
+    for(var i = 0; i < fraseCodificada.length; i++) {
+
+        fraseDescodificada += String.fromCharCode(fraseCodificada.charCodeAt(i) - numeroDeslocamento);
+    
+    }
+
+    console.log(fraseDescodificada);
+
+</script>

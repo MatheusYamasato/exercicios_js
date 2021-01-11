@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+
+<script>
+    var alunosMatriculados = [ "a", "b", "c", "d", "e" ];
+    var presencaSegunda = [ "b", "d", "e" ];
+    var presencaTerca = [ "a", "b", "c" ];
+    var presencaQuarta = [ "a", "b", "e" ];
+    var presencaQuinta = [ "a", "b", "c", "d" ];
+    var presencaSexta = [ "a", "b", "c", "d", "e" ];
+    var presencaSemana = [ presencaSegunda, presencaTerca, presencaQuarta, presencaQuinta, presencaSexta ];
+
+    function calcularMediaDia(presencaDia, alunosMatriculados) {
+        for(var i = 0; i < presencaSemana.length; i++ ) {
+            return presencaDia / alunosMatriculados;
+        }
+    }
+    calcularMediaDia(presencaSegunda, alunosMatriculados);
+    
+
+</script>

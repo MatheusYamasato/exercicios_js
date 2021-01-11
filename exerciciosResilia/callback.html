@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<html>
+    <body>
+        <button id="btn"></button>
+    </body>
+    
+    <script>
+        var botao = document.getElementById("btn");
+        botao.textContent = "Clique-me";
+        var texto = botao.textContent;
+        botao.addEventListener('mouseenter', alterarTexto);
+        botao.addEventListener('mouseout', alterarTexto2);
+        botao.addEventListener('click', alterarBackground);
+
+        function alterarTexto() {
+            botao.textContent = "Olá";
+        }
+
+        function alterarTexto2() {
+            botao.textContent = texto;
+        }
+
+        function alterarBackground() {
+            var vermelho = Math.random() * 255;
+            var azul = Math.random() * 255;
+            var verde = Math.random() * 255;
+            var body = document.querySelector("body");
+            body.style.backgroundColor =  `rgb (${vermelho}, ${azul}, ${verde})`;
+        }
+    </script>
+</html>

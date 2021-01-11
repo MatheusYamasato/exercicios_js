@@ -1,0 +1,27 @@
+/*
+    Cor do título lindo
+*/
+#titulo
+{
+    color: green;
+}
+
+/*
+    Regra aplicada para todos os td's dentro do elemento com id = "jogo-da-velha".
+    Assim não bagunçamos outras tabelas que não façam parte do nosso jogo
+*/
+#jogo-da-velha td
+{
+    width: 64px;
+    height: 64px;
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+}
+
+/*
+    Escurecemos um pouquinho caso passe o mouse em cima
+*/
+#jogo-da-velha td:hover
+{
+    background-color: rgb(190, 190, 190);;
+}

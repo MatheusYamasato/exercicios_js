@@ -1,0 +1,55 @@
+<!--HTML5!!!-->
+<!DOCTYPE html>
+
+<!--Página em português-->
+<html lang="pt-BR">
+    <!--Dados para o navegador-->
+    <head>
+        <!--"Dicionário" da página-->
+        <meta charset="UTF-8">
+        <!--Título lindo-->
+        <title>#</title>
+        <!--Deixamos a página muito linda importando o CSS-->
+        <link rel="stylesheet" href="./aula25.css">
+    </head>
+
+    <!--Corpo da nossa página-->
+    <body>
+        <!--Um lindo título-->
+        <h1 id="titulo">#</h1>
+
+        <!--Tabela do jogo-->
+        <table id="jogo-da-velha">
+            <!--Primeira linha-->
+            <tr>
+                <td id="0" onclick="clicouNoQuadrado(0)"></td>
+                <td id="1" onclick="clicouNoQuadrado(1)"></td>
+                <td id="2" onclick="clicouNoQuadrado(2)"></td>
+            </tr>
+            
+            <!--Segunda linha-->
+            <tr>
+                <td id="3" onclick="clicouNoQuadrado(3)"></td>
+                <td id="4" onclick="clicouNoQuadrado(4)"></td>
+                <td id="5" onclick="clicouNoQuadrado(5)"></td>
+            </tr>
+            
+            <!--Terceira linha-->
+            <tr>
+                <td id="6" onclick="clicouNoQuadrado(6)"></td>
+                <td id="7" onclick="clicouNoQuadrado(7)"></td>
+                <td id="8" onclick="clicouNoQuadrado(8)"></td>
+            </tr>
+        </table>
+        
+        <!--Clicamos aqui para gerar uma nova partida-->
+        <button onclick="novoJogo()">Novo Jogo</button>
+    </body>
+    
+    <!--
+        Lógica do nosso jogo. Não importamos no <head> pois no nosso script acessamos
+        elementos do HTML dentro do body. Quando o script é importado, nem toda a pá-
+        gina foi carregada.
+    -->
+    <script src="./aula25.js"></script>
+</html>

@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+
+<body>
+    
+
+</body>
+
+
+<script>
+    
+    var nomes = ['Ana Vitória', 'Nicolas', 'Lucas', 'Matheus'];
+    for(var i = 0; i < nomes.length; i++) {
+        var botao = document.createElement("button");
+        botao.textContent = nomes[i];
+        botao.onclick = alerta;
+        document.body.append(botao);
+    }
+
+</script>
